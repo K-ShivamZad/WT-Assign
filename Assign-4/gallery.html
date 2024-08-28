@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - [City Name]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            margin: 10px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery of [City Name]</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="heritage.html">Heritage</a>
+        <a href="hotel_booking.html">Hotel Booking</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="content">
+        <h2>Stunning Photos of [City Name]</h2>
+        <div class="gallery">
+            <img src="gallery1.jpg" alt="Gallery Photo 1">
+            <img src="gallery2.jpg" alt="Gallery Photo 2">
+            <img src="gallery3.jpg" alt="Gallery Photo 3">
+            <img src="gallery4.jpg" alt="Gallery Photo 4">
+            <img src="gallery5.jpg" alt="Gallery Photo 5">
+            <!-- Add more gallery photos as needed -->
+        </div>
+    </div>
+</body>
+</html>

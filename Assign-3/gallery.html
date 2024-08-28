@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header, nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #007BFF;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin: 10px;
+            border: 2px solid #ccc;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gallery</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+    <div class="content">
+        <h2>College and Student Photos</h2>
+        <div class="gallery">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSycM-gmwGn-ursccoOzyLZHgcH_j5ylq5dGw&s" alt="College Event 1">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY3x1MaTZfhss5GM_vwxFv_Xw78uzYR-53Fw&s" alt="College Event 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_cr3hiyEno5Ri3xkK5iTBUj6QSm1LvHrtww&s" alt="College Event 3">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</body>
+</html>
